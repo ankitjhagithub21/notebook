@@ -2,7 +2,7 @@
 
 ## Overview
 
-Welcome to notebook! This application is designed to [provide a brief description of what your application does].
+Welcome to notebook! This application is used to create a new note, delete note and update note.
 
 
 ## Features
