@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <header>
     <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-      <Link className="flex title-font font-medium items-center text-white mb-4 md:mb-0" to={"/"}>
+      <Link className="flex title-font font-medium items-center mb-4 md:mb-0" to={"/"}>
         <img src="/vite.svg" alt="logo" />
         <span className="ml-3 text-xl">NoteBook</span>
       </Link>
