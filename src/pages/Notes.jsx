@@ -9,7 +9,7 @@ const Notes = () => {
   if(notes.length===0){
      return <div className='text-center py-24'>
       <p className='text-xl mb-5'>Nothing to display !!</p>
-      <Link className='underline text-white text-lg' to={"/"}>Add Note</Link>
+      <Link className='underline text-lg' to={"/"}>Add Note</Link>
      </div>
   }
   return (

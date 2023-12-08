@@ -48,7 +48,7 @@ const AddNote = () => {
               type="text"
               id="title"
               name="title"
-              className="w-full bg-gray-100 text-gray-700 bg-opacity-50 rounded border border-white focus:border-white-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               value={note.title}
               onChange={handleChange}
               required
@@ -60,22 +60,23 @@ const AddNote = () => {
           <div className="relative">
             <label
               htmlFor="description"
-              className="leading-7 text-lg"
+              className="leading-7 text-lg text-gray-600"
             >
               Description
             </label>
             <textarea
               id="description"
               name="description"
-              className="w-full bg-gray-100 bg-opacity-50 rounded border border-white  focus:bg-white focus:ring-2 focus:ring-gray-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-20  0 ease-in-out"
+              className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200  text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-20  0 ease-in-out"
               value={note.description}
               onChange={handleChange}
               required
+              rows={6}
             />
           </div>
         </div>
         <div className="p-2 w-full">
-          <button className="flex mx-auto text-white bg-gray-500 border-0 py-2 px-8 focus:outline-none hover:bg-gray-800 rounded text-lg">
+          <button className="flex mx-auto text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-600 rounded text-lg">
             Add
           </button>
         </div>
