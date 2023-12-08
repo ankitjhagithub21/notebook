@@ -22,7 +22,7 @@ const About = () => {
                                 </h2>
                                 <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4" />
                                 <p className="text-base">
-                                    Ankit Jha
+                                Hello, I'm Ankit Jha, a highly motivated and skilled MERN Stack Developer with a passion for crafting scalable and efficient web applications.
                                 </p>
                             </div>
                         </div>
